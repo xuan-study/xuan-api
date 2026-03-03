@@ -30,7 +30,7 @@ setup(
     license="MIT",  # 指定开源协议（修正：小写l，MIT为最宽松协议）
     long_description=get_long_description(),  # 指定包详细描述（容错读取README）
     long_description_content_type="text/markdown",  # 指定详细描述格式为Markdown
-    url="",  # 包源码地址（无GitHub则留空）
+    url="https://github.com/xuan-study/xuan-api",  # 包源码地址（无GitHub则留空）
     packages=find_packages(include=["xuan-api", "tests"]),  # 递归查找sgg包及其子包
     classifiers=[  # 包分类标签（帮助PyPI索引，提升可发现性）
         "Development Status :: 3 - Alpha",  # 开发状态：测试版（Alpha）
